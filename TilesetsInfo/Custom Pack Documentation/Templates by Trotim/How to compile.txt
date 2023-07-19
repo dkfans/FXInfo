@@ -1,0 +1,20 @@
+Open Powershell as Administrator and type: "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux". Restart.
+Click here: https://www.microsoft.com/store/apps/9N9TNGVNDL3Q to install Ubuntu 18.04 from windows store.
+
+Type: "sudo apt update && sudo apt upgrade" and confirm
+
+sudo apt install make
+sudo apt install unzip
+sudo apt install gcc
+sudo apt install g++
+sudo apt-get install gcc-mingw-w64-i686
+sudo apt-get install g++-mingw-w64-i686
+
+make standard
+or in your case, 'make pkg-gfx'
+
+Type cd "/mnt/d/source/keeperfx"
+if you have the source code downloaded to d:\source\keeperfx
+
+Download here: https://github.com/dkfans/keeperfx/archive/master.zip
+And these: https://lubiki.keeperklan.com/releases_big/gfx_sources_v11.7z

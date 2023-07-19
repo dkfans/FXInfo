@@ -1,0 +1,20 @@
+How to Make Custom Textures
+by Spatulade/Trotim/YourMaster
+
+Customising the textures for Dungeon Keeper is just a case of editing the textures in the folder Textures Dump and recompiling the game. 
+
+The original game has 8 sets of textures, where the tile textures are all 32x32 pixels and use the attached 256-colour palette. To edit your own files, just edit these however you normally do, remembering the 32x32 size and palette limit. Most textures are organised in a straightforward way: wall textures have the tops, sides, middle and bottoms, floor textures have outer areas and raised sides/side for the room next to water/lava. Note that you should make your palette darkish - the game has a dark atmosphere so this will help it fit in and also the lighting system will make the textures appear even brighter when they are lit.
+
+What's the best way to edit these?
+
+The best way to edit these is using GIMP. Attached are a series of templates for GIMP created by Trotim and tweaked here and there by Spatulade (If these come up with errors, download the newest version of GIMP, which should fix this). These contain various cutouts of certain parts of wall/floor textures to make it easier for people to import their own wall textures below these and combine.
+
+How can I stick to the palette?
+
+The best way is again to use GIMP. Import Dungeon-Keeper-256.gpl into GIMP (or create a new one from DKpalette.png). For each texture you make, right-click on a layer and click "New from Visible" to make a layer combining what is visible at the time. Then, click on Image > Mode > Indexed, make sure "Use custom palette" is selected, then select Dungeon Keeper 256 from the list and click Convert (dithering is optional, try it out!). Have a look and see if this looks okay. If it looks gross, it's because the colours you used didn't map well to the palette (either multiple colours mapped to the same one, losing definition, or the closest colours weren't very close!). If these look bad, undo this and try to adjust the colours to something that maps better, or look at the palette and make your colours match the palette. Once you have converted these to the palette and you're happy with it, save!
+
+I'm done, how can I test this?
+
+Read How to compile.txt for a brief guide for compiling the game and the graphics. You will need to make this into a file called tmapaXXX.dat (choosing a number in place of XXX) and put it with the rest, then edit a map's .inf file (in a hex editor) to match the number you have chosen (in base 16). Then run this level and it should work!
+
+If you have any issues, check up on the Keeper Klan discord.

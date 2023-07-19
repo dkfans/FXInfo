@@ -1,0 +1,220 @@
+Misc notes on tiles:
+
+bookshelf_wooden:
+Used in Library bookcases/walls
+
+brick_drape_blue:
+Used for tops of fortified walls and doors.
+
+brick_near_lava:
+Used for the bottom row of fortified walls adjacent to lava.
+
+brick_near_water:
+Used for the bottom row of fortified walls adjacent to water. These are the frames for an animation.
+
+brick_wall:
+Fortified wall tops/side/bottom/widdle/torch sconces
+
+brick_with_hole:
+Is unused in all textures.
+
+column_brick_gemstone:
+Dungeon Heart columns
+
+column_chapel:
+used in Library columns and walls.
+
+column_claimed_corner:
+Is for the corner stones for fortified walls. Also tops for columns in Training Room, Library, Workshop and Scavenger Room.
+
+column_dark_gemstones:
+Training Room columns and walls
+
+column_dark_tiles:
+Columns for Scavenger Room
+
+column_iron_hammer:
+columns and walls for Workshop.
+
+column_stone_axe:
+column and walls for Barracks.
+
+column_stone_glyphs:
+column for Treasure Room
+
+column_stone_temple:
+column for Temple
+
+column_wall_clobber:
+Column and walls for Hatchery, as well as top non-corner stones for fortified walls.
+
+column_whitestone:
+frame and legs of Portal
+
+door_braced:
+Braced Door texture
+
+door_iron:
+Iron Door texture
+
+door_wooden:
+Wooden Door texture
+
+earth_dirty:
+Contains the main earth top texture, along with earth wall top and bottom (The top part for earth walls seems to be taken from here and not earth_standard).
+
+earth_near_lava:
+Used for the bottom row of earth wall adjacent to lava
+
+earth_near_water:
+Used for the bottom row of earth wall adjacent to water. These are the frames for an animation.
+
+earth_player_marks:
+Top gem player marker for fortified walls. The fifth one I believe is for neutral walls, I haven't checked if this is used.
+
+earth_standard:
+Earth wall tops/side/bottom/widdle/torch sconces.
+
+earth_tagged:
+top textures for tagged earth walls. These are the frames for an animation.
+
+entrance_top:
+texture for Portal top
+
+filler_black:
+Presumably used for Fog of War/portal hole. Might also be a failsafe texture.
+
+filler_purple:
+Failsafe texture for invalid/odd tiles/slabs.
+
+gems_standard:
+Top tiles for gems. These are the frames for an animation.
+
+gold_near_lava:
+Used for the bottom row of gold next to lava. These are the frames for an animation.
+
+gold_standard:
+Top tiles for Gold Seam. These are the frames for an animation.
+
+gold_tagged:
+Top tiles for Gold Seam and Gems tiles when tagged. These are the frames for an animation.
+
+ground_barrack:
+centre and outer floor tiles for Barracks. Two tiles on the right seems to be unused.
+
+ground_claimed:
+Textures for claimed area.
+
+ground_graveyard:
+textures for Graveyard floor. You should try to make the edges similar to ground_unclaimed if you're following this style.
+
+ground_lair:
+textures for Lair floor. You should try to make the edges similar to ground_unclaimed if you're following this style.
+
+ground_player_colors:
+Centre claimed area tile for player markers. The fifth one I believe is for neutral claimed area, I haven't checked if this is used.
+
+ground_research:
+Floor for Library.
+
+ground_scavenge:
+Floor for Scavenger Room.
+
+ground_stone_clobber:
+First two tiles are used for Prison walls I believe. Not sure of the rest.
+
+ground_stone_solid:
+First is floor for Workshop. Not sure if the other two are used.
+
+ground_temple:
+Floor textures for Temple.
+
+ground_torture:
+Floor textures for Prison/Torture Chamber
+
+ground_training:
+ground for Training Room.
+
+ground_treasury:
+Ground for Treasure Room and Dungeon Heart.
+
+ground_unclaimed:
+Floor tile for path/Hatchery. First tile is always used for Hatchery floor. The second tile is always used for ground next to lava. The rest seem to be used sporadically on ground tiles, sometimes in groups.
+
+lava_standard:
+Texture for lava. These are the frames for an animation.
+
+lightplace_heart:
+Used for Dungeon Heart flame pillars.
+
+lightplace_temple:
+Unused?
+
+pedestal_wooden:
+Texture used for Bridge top and Guard Post. The bottom part for under the Guard Post has always used the claimed area texture for pack000 in every pack but presumably this can still be changed.
+
+player_ensigns:
+Barracks wall texture for each player (fifth is for neutral Barracks).
+
+player_gemstones:
+Gem tops for Dungeon Heart pillars and Portal centre. Fifth is for neutral Portals/Dungeon Hearts (This flicks between red-off-blue-off-green-off-yellow-off-red).
+
+relief_armory:
+Wall textures for Training Room.
+
+relief_chicken:
+Wall textures for Hatchery.
+
+relief_fence:
+Wall textures for Graveyard.
+
+relief_gemstone:
+Wall textures for Treasure Room.
+
+relief_handsround:
+Wall textures for Barracks. Centre piece is player_ensigns.
+
+relief_horny:
+Wall textures for Temple.
+
+relief_pair:
+Wall texture for decoration. In pack000 this is an abstract stone depiction of two Mistresses, hence the name.
+
+relief_portal1-4:
+Wall textures for Library. These are four frames of an animation.
+
+relief_prison:
+Wall textures for Prison.
+
+relief_skeleton:
+Wall textures for Torture Chamber
+
+relief_skull:
+Wall textures for Lair.
+
+relief_trieye1-3:
+Wall textures for Scavenger Room. These are three frames of an animation.
+
+relief_twins:
+Wall texture for decoration. In pack000 this is a stone depiction of two ladies/Mistresses facing opposite directions, hence the name.
+
+relief_woman:
+Wall texture for decoration. In pack000 this is a stone depiction of a demonic-looking woman (possibly a succubus?), hence the name.
+
+relief_workshop1-4:
+Wall textures for Worshop. These are four frames of an animation.
+
+rock_standard:
+Textures for Impenetrable Rock.
+
+stone_glyphs:
+Not sure if these are used.
+
+stone_wall_chaotic:
+Some of these are used for the sides of Portals next to water/lava. Not sure if the rest are used.
+
+water_standard:
+Textures for water. These are the frames for an animation.
+
+water_wavy1-4:
+Texture for Temple water and Magic Door. These are four frames of an animation.

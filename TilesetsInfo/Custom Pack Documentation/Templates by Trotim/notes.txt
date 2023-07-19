@@ -1,0 +1,5 @@
+ground_unclaimed:
+
+first time is always used in hatchery
+second tile is always used for ground next to lava
+rest seem to be used sporadically on ground tiles, sometimes in groups.
